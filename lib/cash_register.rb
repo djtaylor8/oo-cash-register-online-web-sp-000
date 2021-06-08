@@ -19,7 +19,7 @@ class CashRegister
     @total += price * quantity
     @@all_items << title 
     @items = []
-    if quantity  
+    if quantity >= 1  
       quantity.times do 
         @items << title 
       end
