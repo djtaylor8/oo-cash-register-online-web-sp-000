@@ -23,6 +23,7 @@ class CashRegister
     if @discount != 0 
       @total -= @discount * 10 
       puts "After the discount, the total comes to #{@total}."
+      binding.pry 
     elsif @discount == 0  
       puts "There is no discount to apply."
     end 
