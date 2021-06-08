@@ -1,3 +1,5 @@
+require 'pry'
+
 class CashRegister
   
   attr_accessor :total, :discount
@@ -18,7 +20,7 @@ class CashRegister
   end 
   
   def apply_discount
-    if @discount > 0 
+    if @discount != 0 
       @total -= @discount * 10 
       puts "After the discount, the total comes to #{@total}."
     elsif @discount == 0  
