@@ -21,7 +21,7 @@ class CashRegister
     if quantity  
       quantity.times do 
         @items << title 
-
+      end
     end 
   end 
   
