@@ -22,6 +22,7 @@ class CashRegister
       quantity.times do 
         @items << title 
       end
+      @items << title 
     end 
   end 
   
