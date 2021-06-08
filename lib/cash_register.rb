@@ -20,7 +20,7 @@ class CashRegister
   end 
   
   def apply_discount
-    puts "Hi!"
+    return "Hi!"
   end 
   
   def items
