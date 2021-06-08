@@ -21,9 +21,7 @@ class CashRegister
     if quantity  
       quantity.times do 
         @items << title 
-    else 
-        @items << title 
-      end 
+
     end 
   end 
   
