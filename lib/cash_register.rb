@@ -20,7 +20,7 @@ class CashRegister
   end 
   
   def apply_discount
-    if self.discount == true 
+    if @discount == true 
       @total -= @discount * 10 
       puts "After the discount, the total comes to $#{@total}."
     else  
